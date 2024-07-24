@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "gacass48.github.io",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\ngit remote add origin https://github.com/gacass48/gacass48.github.io.git git branch -M main git push -u origin main"
+    "text": "Gavin Cassidy is a Data Science major at St. Lawrence University"
   },
   {
     "objectID": "about.html",
