@@ -18,7 +18,7 @@
         crossorigin="anonymous"></script>
 
     <!--Navbar for accessing other pages-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Cassidy</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -46,6 +46,16 @@
             </div>
         </div>
     </nav>
+
+    <div class = "mt-5 pt-4"></div>
+
+
+    <form action = "https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="cd3ea03e-1c05-48a8-8132-0f20c107a194">
+            
+            <label for = "name">Name:</label>
+            <input type = "text" name = "name" id = "name">
+    </form>
 
 
 </body>
