@@ -1,6 +1,8 @@
 For my colors, I used Realtime Colors to find colors that worked well with my selected green. I then linked 
-it to Figma to work on the initial model more.
+it to Figma to work on the initial model more. 
 https://www.realtimecolors.com/docs/randomization?colors=131101-fefcef-154313-483C32-2F4B6C&fonts=Inter-Inter
+
+I also used Hello Web Design in my initial color selection when deciding the feel I wanted.
 
 For my contact form, I used Web3Forms to allow submissions that I can receive. I can get a name, email, and 
 other information if necessary. I also have my email linked on the contact page which I learned from this W3docs links.
