@@ -9,16 +9,16 @@
     <title>Gavin Cassidy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href = "final.css">
-    </head>
+    <link rel="stylesheet" href="final.css">
+</head>
 
-<body>
+<body style="background-color: #483C32;">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
     <!--Navbar for accessing other pages-->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #154313;">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Cassidy</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -31,13 +31,13 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="about.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="experience.html">Experience</a>
+                        <a class="nav-link" href="experience.html">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="projects.html">Projects</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Contact</a>
@@ -47,16 +47,42 @@
         </div>
     </nav>
 
-    <div class = "mt-5 pt-4"></div>
+    <div class="mt-5 pt-4"></div>
+    <!--Contact form through Web3Forms-->
 
-
-    <form action = "https://api.web3forms.com/submit" method="POST">
+    <div class="card mb-3 start-50 translate-middle-x p-2" style="background-color: #154313; max-width: 725px;">
+        <form class="offset-md-1" action="https://api.web3forms.com/submit" method="POST"
+            style="color: #ffffff; background-color: #154313; max-width: 600px;">
             <input type="hidden" name="access_key" value="cd3ea03e-1c05-48a8-8132-0f20c107a194">
-            
-            <label for = "name">Name:</label>
-            <input type = "text" name = "name" id = "name">
-    </form>
 
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+            <br><br>
+            <label for="contact">
+                Reason for contact or other information:
+            </label>
+            <br>
+            <textarea name="contact" id="contact"></textarea>
+            <br><br>
+
+            <br>
+            <input type="submit" value="Send Message" style="background-color: #2F4B6C;">
+        </form>
+    </div>
+
+    <!--Email if desired-->
+
+    <div class="card mb-3 start-50 translate-middle-x p-2"
+        style="background-color: #154313; max-width: 725px; color: #ffffff;">
+        <div class="card-body">
+            <h3>Please feel free to reach out via email at <a class="link-opacity-100"
+                    href="mailto:gacassidy48@gmail.com">gacassidy48@gmail.com</a></h3>
+        </div>
+
+    </div>
 
 </body>
 

@@ -1,0 +1,18 @@
+For my colors, I used Realtime Colors to find colors that worked well with my selected green. I then linked 
+it to Figma to work on the initial model more.
+https://www.realtimecolors.com/docs/randomization?colors=131101-fefcef-154313-483C32-2F4B6C&fonts=Inter-Inter
+
+For my contact form, I used Web3Forms to allow submissions that I can receive. I can get a name, email, and 
+other information if necessary. I also have my email linked on the contact page which I learned from this W3docs links.
+https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html
+
+Image sources:
+Me for the selfies,
+The picture of my family was taken by a player on the Brown Squash team,
+The portrait was taken for my Admissions intern position by Christopher Lenney who gave me the proofs,
+The picture of me and my squash teammate Inwoo Lee was taken by Suyeon Eom who shared the image
+
+For the navbar framework, bootstrap documentation was used.
+
+For pretty much every section, bootstrap and css styling was used in combination to create the consistent colors scheme 
+and intended spacing.
